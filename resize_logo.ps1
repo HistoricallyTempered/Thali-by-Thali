@@ -4,8 +4,8 @@ $sourcePath = "e:\Antigravity\HTwebsite\assets\HT Logo.png"
 $destPath = "e:\Antigravity\HTwebsite\assets\logo_small.png"
 
 $image = [System.Drawing.Image]::FromFile($sourcePath)
-# Calculate new dimensions (width 300px)
-$newWidth = 300
+# Calculate new dimensions (width 600px for 2x scale)
+$newWidth = 600
 $newHeight = [int]($image.Height * ($newWidth / $image.Width))
 
 $bitmap = New-Object System.Drawing.Bitmap($newWidth, $newHeight)

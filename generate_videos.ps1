@@ -16,7 +16,7 @@ $template = @"
         <div class="container">
             <nav>
                 <div class="logo">
-                     <img src="../assets/logo_small.png" alt="Thali by Thali" style="height: 50px; width: auto;">
+                     <img src="../assets/logo_small.png" alt="Thali by Thali" style="height: 100px; width: auto;">
                 </div>
                 <ul class="nav-links">
                     <li><a href="../index.html">Home</a></li>
