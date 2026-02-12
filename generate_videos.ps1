@@ -18,6 +18,11 @@ $template = @"
                 <div class="logo">
                      <img src="../assets/logo_small.png" alt="Thali by Thali" style="height: 100px; width: auto;">
                 </div>
+                <div class="burger-menu" id="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <ul class="nav-links">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../about.html">About Us</a></li>
@@ -70,6 +75,7 @@ $template = @"
         </div>
     </footer>
 
+    <script src="../js/main.js"></script>
 </body>
 </html>
 "@
