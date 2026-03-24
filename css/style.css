@@ -130,8 +130,7 @@ nav {
 
 /* Update logo image size in HTML inline styles or here */
 .logo img {
-    height: 100px;
-    /* Scaled up 2x from 50px */
+    height: 70px;
     width: auto;
 }
 

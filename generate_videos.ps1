@@ -145,6 +145,40 @@ And more importantly, how do we know?</p>
 
 <p>This episode rethinks the idea of a “golden age” and asks a simple but important question: golden for whom?</p>
 "@
+    },
+    @{
+        ID = 5;
+        Title = "What were people eating in the Chola empire?";
+        VideoID = "N0baS1YxxDw";
+        Topic = "Chola Empire";
+        Description = @"
+<p>What did people eat in the Chola Empire?</p>
+
+
+<p>In this episode of Indian History: Thali by Thali, we speak with historian C.N. Subramaniam about the medieval Chola dynasty (c. 9th–13th century CE) — one of the most powerful kingdoms in South Indian history — and the ecological diversity of their world, from river valleys and coasts to pastoral tracts and uplands, through the idea of tinai (landscapes).
+
+While temple inscriptions give us rich evidence about administration and endowments, literary works like the Periya Puranam offer passing but revealing glimpses of food, hospitality, hierarchy, and social custom.
+
+Who was fed first? What did feeding Brahmins signify? How did landscape, religion, and power shape the Chola plate?</p>
+
+<p>And of course, we return to our central question: What did people eat in the Chola Empire? And what do our sources actually tell us about everyday life in medieval South India?</p>
+
+"@
+    },
+
+    @{
+        ID = 6;
+        Title = "How Did Rice Dominate the Medieval Thali? Kerala and Odisha Edition";
+        VideoID = "G0-vMc6djFU";
+        Topic = "Rice Medieval Thali";
+        Description = @"
+<p>When and how did rice become a staple food in some parts of India?</p>
+
+<p>In this episode of Indian History: Thali by Thali, we speak with historians Rajan Gurukkal and Manu Devadevan about medieval Kerala and Odisha. These regions are separated by hundreds of kilometres but have surprisingly similar histories of migration and the conversion of riparian areas into paddy fields. Rice became a dominant item in temple foods in medieval India, especially in Brahmin-controlled temples. Evidence from Vedic texts and the Mahabharata suggests that temple foods in India have changed over time. But temple kitchens spurned vegetables that were introduced into the Indian subcontinent after the 16th century.</p>
+
+<p>And of course, we return to our central questions: what can temple foods tell us about what people ate in medieval India? What explains these changes in Indian food history? What were people outside temple economies eating in medieval India? Was everyone allowed to partake of temple foods?</p>
+
+"@
     }
 )
 
@@ -166,7 +200,7 @@ foreach ($ep in $episodes) {
          $navLinks += "<span style='margin-right: 20px; color: #ccc;'>&larr; Previous Episode</span>"
     }
 
-    if ($i -lt 4) {
+    if ($i -lt 6) {
         $next = $i + 1
         $navLinks += "<a href='video-$next.html' style='font-weight: bold;'>Next Episode &rarr;</a>"
     } else {
